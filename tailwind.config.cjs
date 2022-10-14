@@ -26,10 +26,15 @@ module.exports = {
       'cyan-500': '#81d8f7',
       'cyan-600': '#3BC3F3',
       'cyan-900': '#234A58',
+
+      'blue-500': '#3b82f6',
     },
     extend: {
       fontFamily: {
         sans: 'Inter, sans-serif',
+      },
+      dropShadow: {
+        '3xl': '0 0 10px rgba(128, 216, 246, 0.8)',
       },
     },
   },
