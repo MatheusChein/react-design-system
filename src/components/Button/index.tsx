@@ -24,7 +24,7 @@ export function Button({
         'text-black font-sans py-3 px-4 rounded font-semibold text-sm w-full flex items-center justify-center transition duration-150 focus:outline-none',
         disabled
           ? 'bg-cyan-900 cursor-not-allowed'
-          : 'bg-cyan-500 hover:scale-[1.01] hover:bg-cyan-600 focus:ring-1 ring-white',
+          : 'bg-cyan-500 hover:scale-105 hover:bg-cyan-600 focus:ring-1 ring-white',
         className
       )}
     >
