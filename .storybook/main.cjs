@@ -14,6 +14,7 @@ module.exports = {
     interactionsDebugger: true,
     storyStoreV7: true,
   },
+  staticDirs: ['../public'],
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
       config.base = '/react-design-system/';
