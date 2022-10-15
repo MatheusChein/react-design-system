@@ -3,8 +3,9 @@ import { initialize, mswDecorator } from 'msw-storybook-addon';
 
 import '../src/styles/tailwind.css';
 
-// Initialize MSW
-initialize();
+initialize({
+  onUnhandledRequest: 'bypass',
+});
 
 // Provide the MSW addon decorator globally
 export const decorators = [mswDecorator];

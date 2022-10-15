@@ -7,8 +7,8 @@ export default {
   component: TextInput.Root,
   args: {
     children: [
-      <TextInput.Input placeholder="johndoe@example.com" />,
-      <TextInput.Icon>
+      <TextInput.Input placeholder="johndoe@example.com" key={1} />,
+      <TextInput.Icon key={2}>
         <Envelope />
       </TextInput.Icon>,
     ],
